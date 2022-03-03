@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Concept-based Instruments for Generative Systems',
-    paragraph: 'Mantissa Audio strives to explore new applications of mathmatical concepts and digital techniques in order to bring a special type of chaos to your modular systems.'
+    title: 'Concept-based Instruments for Generative and Chaotic Systems',
+    paragraph: 'mantissa audio strives to explore new applications of mathmatical concepts and digital techniques in order to bring chaos and complexity to your modular systems.'
   };
 
   return (
