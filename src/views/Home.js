@@ -11,9 +11,9 @@ const Home = () => {
 
   return (
     <>
-      <Hero className="illustration-section-01" />
+      <Hero />
       <BrandDivider />
-      <FeaturesSplit invertMobile imageFill className="illustration-section-02" />
+      <FeaturesSplit invertMobile imageFill />
       <div id="cta"/>
       <Cta split />
     </>
