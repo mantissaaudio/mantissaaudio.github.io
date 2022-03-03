@@ -44,7 +44,7 @@ const BrandDivider = ({
                 height: 30,
                 border: 10,
                 borderStyle: 'solid',
-                borderColor: 'white'
+                borderColor: 'black'
             }}
           >
           </div>
@@ -56,7 +56,7 @@ const BrandDivider = ({
                 borderStyle: 'solid',
                 borderRight: 5,
                 borderLeft: 5,
-                borderColor: 'white'
+                borderColor: 'black'
             }}
           >
           </div>
@@ -66,8 +66,8 @@ const BrandDivider = ({
                 height: 30,
                 border: 10,
                 borderStyle: 'solid',
-                borderColor: 'white',
-                backgroundColor: 'white'
+                borderColor: 'black',
+                backgroundColor: 'black'
             }}
           >
           </div>
