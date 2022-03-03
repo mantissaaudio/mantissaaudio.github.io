@@ -5,13 +5,16 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import BrandDivider from '../components/elements/BrandDivider';
 
 const Home = () => {
 
   return (
     <>
       <Hero className="illustration-section-01" />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <BrandDivider />
+      <FeaturesSplit invertMobile imageFill className="illustration-section-02" />
+      <div id="cta"/>
       <Cta split />
     </>
   );
