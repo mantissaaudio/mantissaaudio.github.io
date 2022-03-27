@@ -19,6 +19,11 @@ body {
     /* overflow: hidden; */
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     padding: 25px;
     color: white;
