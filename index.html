@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="assets/icon-inverted.png">
         <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico"> -->
         <meta charset="utf-8">
@@ -46,7 +47,14 @@
                                       </div>
                                   </div>
                                   <div class="ml-button-horizontal primary ">
-                                      <button type="submit" class="primary">Stay informed</button>
+                                      <button type="submit" class="primary">STAY INFORMED</button>
+                                    <button disabled="disabled" style="display: none;" type="button" class="loading">
+                                      <div class="ml-form-embedSubmitLoad"></div>
+                                      <span class="sr-only">Loading...</span>
+                                    </button>
+                                  </div>
+                                  <div class="ml-mobileButton-horizontal">
+                                    <button type="submit" class="primary">Stay informed</button>
                                     <button disabled="disabled" style="display: none;" type="button" class="loading">
                                       <div class="ml-form-embedSubmitLoad"></div>
                                       <span class="sr-only">Loading...</span>
@@ -57,13 +65,13 @@
                               <!-- Privacy policy -->
                               <!-- /Privacy policy -->
                               <input type="hidden" name="ml-submit" value="1">
-                              <div class="ml-mobileButton-horizontal">
+                              <!-- <div class="ml-mobileButton-horizontal">
                                 <button type="submit" class="primary">Stay informed</button>
                                 <button disabled="disabled" style="display: none;" type="button" class="loading">
                                   <div class="ml-form-embedSubmitLoad"></div>
                                   <span class="sr-only">Loading...</span>
                                 </button>
-                              </div>
+                              </div> -->
                               <input type="hidden" name="anticsrf" value="true">
                             </form>
                           </div>

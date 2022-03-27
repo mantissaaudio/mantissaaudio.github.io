@@ -455,7 +455,7 @@
         color: #ffffff !important;
         cursor: pointer;
         font-family: 'Lorin';
-        font-size: 14px !important;
+        font-size: 14px;
         font-weight: 700;
         line-height: 20px;
         margin: 0 !important;
@@ -580,17 +580,6 @@
           padding: 5px !important;
           height: 57px;
       }
-            @media only screen and (max-width: 400px){
-
-        .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup { width: 100%!important; }
-        .ml-form-formContent.horozintalForm { float: left!important; }
-        .ml-form-formContent.horozintalForm .ml-form-horizontalRow { height: auto!important; width: 100%!important; float: left!important; }
-        .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal { width: 100%!important; }
-        .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div { padding-right: 0px!important; padding-bottom: 10px; }
-        .ml-form-formContent.horozintalForm .ml-button-horizontal { width: 100%!important; }
-        .ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn { padding-top: 0px!important; }
-
-      }
 
       .ml-mobileButton-horizontal { display: none; }
 
@@ -605,7 +594,7 @@
         color: #ffffff !important;
         cursor: pointer;
         font-family: 'Lorin' !important;
-        font-size: 14px !important;
+        font-size: 14px;
         font-weight: 700 !important;
         line-height: 20px !important;
         padding: 10px !important;
@@ -613,19 +602,14 @@
 
       }
 
-      @media only screen and (max-width: 400px) {
-        #mlb2-198461.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
-          padding: 0 0 10px 0 !important;
-        }
-        .ml-hide-horizontal { display: none !important; }
-        .ml-form-formContent.horozintalForm .ml-button-horizontal { display: none!important; }
-        .ml-mobileButton-horizontal { display: inline-block !important; margin-bottom: 20px;width:100%; }
-        .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div { padding-bottom: 0px !important; }
+      @media only screen and (max-width: 1000px) {
+          #mlb2-198461.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+              max-width: none !important;
+          }
       }
 
-    @media only screen and (max-width: 400px) {
-       .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields {
-        margin-bottom: 10px !important;
-        width: 100% !important;
+      @media only screen and (max-width: 500px) {
+          #mlb2-198461 button {
+              font-size: 10px !important;
+          }
       }
-    }
