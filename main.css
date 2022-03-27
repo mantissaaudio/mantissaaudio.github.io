@@ -19,9 +19,8 @@ body {
     /* overflow: hidden; */
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+input {
+    outline: none;
 }
 
 footer {
@@ -56,7 +55,7 @@ ul {
 }
 
 #logo img {
-    width: 25%;
+    width: 15%;
 }
 
 #tagline {
@@ -69,10 +68,11 @@ ul {
 }
 
 #caption {
-    width: 70%;
+    width: 80%;
 }
 
 #content h3 {
+    line-height: 1.5;
     font-weight: 300;
 }
 
